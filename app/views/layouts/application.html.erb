@@ -22,6 +22,10 @@
 
         <p><%= link_to 'My Account', new_account_session_path unless account_signed_in? %></p>
 
+        <div class="search-container">
+          <input type="text" placeholder="search craigslist" name="search">
+        </div>
+
         <%= render 'categories/category_sidebar' if controller.controller_name == 'categories' %>
 
         <% if is_home? %>
@@ -39,6 +43,9 @@
       <div class="main-right">
         <% if is_home? %>
           <div class="nav-locations">
+            <div class="nearby">
+              <p><strong>nearby cl</strong></p>
+            </div>
             <p>albany</p>
             <p>daytona beach</p>
             <p>jacksonville</p>
