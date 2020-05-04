@@ -1,0 +1,65 @@
+// Place all the styles related to the Public controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main {
+  max-width: 1024px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #dedede;
+}
+
+.main-left {
+  float: left;
+  width: 20%;
+  text-align: center;
+  background: #dedede;
+}
+
+.main-center {
+  float: left;
+  width: 55%;
+  margin-left: 15px;
+}
+
+.center-location {
+	text-align: center;
+	height: 30px;
+	background: #dedede;
+}
+
+.main-right {
+	float: right;
+	width: 20%;
+	text-align: center;
+	background: #dedede;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ddd;
+	width: 100%;
+	height: 50px;
+
+	.inner {
+		max-width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+}
+
+.pull-right {
+	float: right;
+}
+
+.m-l-10 {
+	margin-left: 10px;
+}
+
+.nav-pages {
+	margin-top: 50px;
+}
